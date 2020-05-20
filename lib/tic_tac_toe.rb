@@ -111,6 +111,7 @@ class TicTacToe
     
     if won? == true
       puts "Congratulations #{winner}"
+    end
   end
   
 end
