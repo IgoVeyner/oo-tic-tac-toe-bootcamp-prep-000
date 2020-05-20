@@ -38,5 +38,7 @@ class TicTacToe
     location.between?(0,8) && !position_taken?(location)
   end
   
-  
+  def turn_count
+    @board.count{|token| token == "X" || token == "O"}
+  end
 end
