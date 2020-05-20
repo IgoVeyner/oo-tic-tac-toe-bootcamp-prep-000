@@ -108,6 +108,9 @@ class TicTacToe
       turn
       game_over = over?
     end
+    
+    if won? == true
+      puts "Congratulations #{winner}"
   end
   
 end
