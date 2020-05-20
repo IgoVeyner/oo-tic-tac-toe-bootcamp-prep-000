@@ -76,6 +76,8 @@ class TicTacToe
     end
   end
   
-  
+  def full?(board)
+    board.all?{|token| token == "X" || token == "O"}
+  end
   
 end
