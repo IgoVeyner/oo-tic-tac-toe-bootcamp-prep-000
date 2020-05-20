@@ -34,5 +34,5 @@ class TicTacToe
     @board[location] != " " && @board[location] != ""
   end
   
-  def valid_move?
+  def valid_move?(location)
   end
