@@ -102,7 +102,12 @@ class TicTacToe
     end
   end
   
-  def play 
+  def play
+    game_over = over?(board)
+    while game_over == false
+      turn(board)
+      game_over = over?(board)
+    end
   end
   
 end
